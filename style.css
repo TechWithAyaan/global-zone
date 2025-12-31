@@ -32,6 +32,10 @@
     height: 60px;
     margin: 10px 20px;
 }
+.logo2{
+    height: 40px;
+    margin: 10px 20px;
+}
 .serch-box{
 width: 60%;
 padding: 10px;
@@ -63,4 +67,134 @@ font-size: 16px;
     position: absolute;
     right: 100px;
     cursor: pointer;
+}
+@media  (max-width:953px) {
+    .se-bt{
+
+        left: 340px
+    }
+}
+@media (max-width:840px){
+    .se-bt{
+        left: 300px;
+    }
+    .top-line{
+    width: 100%;
+    height: 50px;
+    background-color: #F3F4F8;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+}
+.top-p{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #004A50;
+    cursor: pointer;    
+}
+}
+@media (max-width:800px){
+.se-bt{
+    left: 250px;
+}
+}
+@media (max-width:750px){
+    #shop-icon{
+    font-size: 44px;
+    color: #004a50;
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+}
+}
+@media (max-width:700px){
+
+    .se-bt{
+        left: 200px ;
+    }
+}
+@media (max-width:650px) {
+    .se-bt{
+        left: 260px;
+    }
+ .logo{
+    display: none;
+ }   
+}
+@media (max-width:468px){
+        .top-line{
+    width: 100%;
+    height: 50px;
+    background-color: #F3F4F8;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+}
+.top-p{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #004A50;
+    cursor: pointer;    
+}
+}
+@media (max-width:450px){
+    .se-bt{
+        left: 190px;
+    }
+}
+@media (max-width:390px) {
+        .top-line{
+    width: 100%;
+    height: 50px;
+    background-color: #F3F4F8;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+}
+.top-p{
+    margin-left: 6px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #004A50;
+    cursor: pointer;    
+    display: none;
+}
+}
+@media (max-width:378px) {
+    .se-bt{
+        left: 130px;
+    }
+}
+@media (max-width:325px){
+    .se-bt{
+        left: 200px;
+    }
+ #shop-icon{
+    display: none;
+ }   
+ .header{
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+ .serch-box{
+width: 90%;
+padding: 10px;
+border: 1px solid #CCCCCC;
+border-radius: 4px;
+font-size: 16px;
+
+
+}
 }
